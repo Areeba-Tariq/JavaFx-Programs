@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" onMouseClicked="#getDate" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.datepicker_multiple_dates_picked1.HelloController">
+   <children>
+      <DatePicker fx:id="datePicker" layoutX="332.0" layoutY="147.0" />
+      <Button fx:id="button" layoutX="106.0" layoutY="122.0" mnemonicParsing="false" onMouseClicked="#showDate" prefHeight="46.0" prefWidth="78.0" text="button" />
+      <TextArea fx:id="TextArea" layoutX="178.0" layoutY="186.0" prefHeight="150.0" prefWidth="156.0" />
+   </children>
+</AnchorPane>
